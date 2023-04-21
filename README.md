@@ -1,0 +1,4 @@
+# Introduction 
+This is a bank churn project to determine whether a customer from a savings account will churn, using certain customer and transactional data. Everything required to run the final model is in the app folder, with the other folders containing some of the surrounding work that took place to get to this end point. Within app is a dockerfile that can be used to create an image and run the app from a container, which is the preferred method as it ensures all the package requirements are satisfied (where it has been verified that everything works as expected).
+
+Due to github data size constraints, the ModellingDATA.parquet file is not included, but in the app/src/data_generation.py file, there is a line that can be uncommented, which will save this file in the appropriate location. This is only required if the model_selection or eda.py files are to be run.
